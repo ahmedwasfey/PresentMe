@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj": {}
+  },
+  "projects": {
+    "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
+        "projectName": "GraduationProjectPresentation",
+        "projectPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj": {
+                "projectPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0-alpha1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj",
+        "projectName": "iPresenter",
+        "projectPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj",
+        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
+        "outputPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Syncfusion.Presentation.Net.Core": {
+              "target": "Package",
+              "version": "[18.4.0.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

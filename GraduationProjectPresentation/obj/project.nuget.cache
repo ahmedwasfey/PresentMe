@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "oIqFM6xulcZLSKS/WecoZThMAPPE15ioNaS0gn8WY65XcCx/Ypzsev7npUb9y487K+DXgEw58h0S4EAyM5HJ2A==",
+  "success": true,
+  "projectFilePath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Master\\.nuget\\packages\\dynamiclanguageruntime\\1.3.0\\dynamiclanguageruntime.1.3.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\ironpython\\3.4.0-alpha1\\ironpython.3.4.0-alpha1.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.compression.net.core\\18.4.0.35\\syncfusion.compression.net.core.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.licensing\\18.4.0.35\\syncfusion.licensing.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.officechart.net.core\\18.4.0.35\\syncfusion.officechart.net.core.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.presentation.net.core\\18.4.0.35\\syncfusion.presentation.net.core.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

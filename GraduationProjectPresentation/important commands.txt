@@ -1,0 +1,13 @@
+C:\Users\Master\AppData\Local\Programs\Python\Python39\Scripts\jupyter notebook
+
+C:\Users\Master\AppData\Local\Programs\Python\Python39\Scripts\pip3 install 
+
+to use pdffigures :
+cd pdffigures
+sbt
+runMain org.allenai.pdffigures2.FigureExtractorBatchCli e:\graduation\papers\ -s stat_file.json -m output/images/ourpaper_ -d output/data/ourpapers_
+
+
+java -Xmx6g -jar  "E:\graduation\science-parser\cli\target\scala-2.11\science-parse-cli-assembly-3.0.1.jar" -o "e:\graduation\output\text\" e:\graduation\papers\
+
+java -jar "E:\graduation\pdffigures\target\scala-2.11\pdffigures2-assembly-0.1.0.jar" -d "e:\graduation\output\figures\data\p_" -m "e:\graduation\output\figures\images\p_" e:\graduation\papers\

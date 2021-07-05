@@ -1,0 +1,15 @@
+﻿@page
+@model GraduationProjectPresentation.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Auto Presentation</h1>
+    <h1 class="display-3">Less is more.</h1>
+    <br />
+    @for (int i = 2; i <= 13; i++)
+    {
+        <img src=@("/overview/Slide"+i+".jpg") />
+    }
+</div>

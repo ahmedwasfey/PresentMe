@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zOnevb6AiXDXWTBukqLdF5sEeQdAj8zMFKWI3/UsTelr3Ox3PRI/Bk4UtEZ6ZqBZ1rvZDG+4Iu1O9WaHdl+xSg==",
+  "success": true,
+  "projectFilePath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.compression.net.core\\18.4.0.35\\syncfusion.compression.net.core.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.licensing\\18.4.0.35\\syncfusion.licensing.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.officechart.net.core\\18.4.0.35\\syncfusion.officechart.net.core.18.4.0.35.nupkg.sha512",
+    "C:\\Users\\Master\\.nuget\\packages\\syncfusion.presentation.net.core\\18.4.0.35\\syncfusion.presentation.net.core.18.4.0.35.nupkg.sha512"
+  ],
+  "logs": []
+}

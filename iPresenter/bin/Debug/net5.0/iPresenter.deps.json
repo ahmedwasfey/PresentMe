@@ -1,0 +1,118 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "iPresenter/1.0.0": {
+        "dependencies": {
+          "Syncfusion.Presentation.Net.Core": "18.4.0.35"
+        },
+        "runtime": {
+          "iPresenter.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Syncfusion.Compression.Net.Core/18.4.0.35": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "18.4200.0.35",
+            "fileVersion": "18.4200.0.35"
+          }
+        }
+      },
+      "Syncfusion.Licensing/18.4.0.35": {
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.4.0.35",
+            "fileVersion": "18.4.0.35"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Net.Core/18.4.0.35": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "Syncfusion.Compression.Net.Core": "18.4.0.35"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.OfficeChart.Portable.dll": {
+            "assemblyVersion": "18.4200.0.35",
+            "fileVersion": "18.4200.0.35"
+          }
+        }
+      },
+      "Syncfusion.Presentation.Net.Core/18.4.0.35": {
+        "dependencies": {
+          "Syncfusion.Compression.Net.Core": "18.4.0.35",
+          "Syncfusion.Licensing": "18.4.0.35",
+          "Syncfusion.OfficeChart.Net.Core": "18.4.0.35"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Presentation.Portable.dll": {
+            "assemblyVersion": "18.4200.0.35",
+            "fileVersion": "18.4200.0.35"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iPresenter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/18.4.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uOI73AzvwgnrCA3LFtc/A5zxk5OvSCKu25+j3RI7jIMJzYAuR/9CKOJeT51OnUihtVc0gB4UuaTuTEll6BZyzQ==",
+      "path": "syncfusion.compression.net.core/18.4.0.35",
+      "hashPath": "syncfusion.compression.net.core.18.4.0.35.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/18.4.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OBsBEGSmBIb6rZhPY2TnaAWWDhhNiBF0HWXfIXHuOVB+Tyfv4vkh54eOWlx8CM3Qxi+jbN3ENYxJ/07wE7m1KQ==",
+      "path": "syncfusion.licensing/18.4.0.35",
+      "hashPath": "syncfusion.licensing.18.4.0.35.nupkg.sha512"
+    },
+    "Syncfusion.OfficeChart.Net.Core/18.4.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0CSRwrSwaFTtCWrudRQt0vocRPiTVm7DgXqgXnYKL2Dt8CteM2xAYlXCDOrQMblV10M7Zp5B4Mt0+eBTaWMf9w==",
+      "path": "syncfusion.officechart.net.core/18.4.0.35",
+      "hashPath": "syncfusion.officechart.net.core.18.4.0.35.nupkg.sha512"
+    },
+    "Syncfusion.Presentation.Net.Core/18.4.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-idaefu//KgfmUVUWh+c/FfH2gXfQ5vzn5zZ/TVlKjypIaiZ6y7/EoDTPfLHhr9MRafXr5FZdt8iGQwHV0q7SAQ==",
+      "path": "syncfusion.presentation.net.core/18.4.0.35",
+      "hashPath": "syncfusion.presentation.net.core.18.4.0.35.nupkg.sha512"
+    }
+  }
+}

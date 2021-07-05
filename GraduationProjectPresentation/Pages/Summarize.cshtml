@@ -1,0 +1,19 @@
+﻿@page
+@model GraduationProjectPresentation.Pages.SummarizeModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Hey there,</h1>
+    <h1 class="display-4">Please upload your ".pdf" file & click "Convert".</h1>
+    <br />
+    <div class="text-center">
+        <form enctype="multipart/form-data" method="post">
+            <input asp-for="Upload" type="file">
+            <span asp-validation-for="Upload"></span>
+            <br />
+            <input asp-page-handler="Upload" class="btn" type="submit" value="Convert" />
+        </form>
+    </div>
+</div>
