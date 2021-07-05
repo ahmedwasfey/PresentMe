@@ -1,0 +1,261 @@
+[{
+  "caption": "Table 1: GLUE Test results, scored by the evaluation server (https://gluebenchmark.com/leaderboard). The number below each task denotes the number of training examples. The “Average” column is slightly different than the official GLUE score, since we exclude the problematic WNLI set.8 BERT and OpenAI GPT are singlemodel, single task. F1 scores are reported for QQP and MRPC, Spearman correlations are reported for STS-B, and accuracy scores are reported for the other tasks. We exclude entries that use BERT as one of their components.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 525.5474243164062,
+    "y1": 166.29751586914062,
+    "y2": 220.12005615234375
+  },
+  "figType": "Table",
+  "imageText": ["System", "MNLI-(m/mm)", "QQP", "QNLI", "SST-2", "CoLA", "STS-B", "MRPC", "RTE", "Average", "392k", "363k", "108k", "67k", "8.5k", "5.7k", "3.5k", "2.5k", "-", "Pre-OpenAI", "SOTA", "80.6/80.1", "66.1", "82.3", "93.2", "35.0", "81.0", "86.0", "61.7", "74.0", "BiLSTM+ELMo+Attn", "76.4/76.1", "64.8", "79.8", "90.4", "36.0", "73.3", "84.9", "56.8", "71.0", "OpenAI", "GPT", "82.1/81.4", "70.3", "87.4", "91.3", "45.4", "80.0", "82.3", "56.0", "75.1", "BERTBASE", "84.6/83.4", "71.2", "90.5", "93.5", "52.1", "85.8", "88.9", "66.4", "79.6", "BERTLARGE", "86.7/85.9", "72.1", "92.7", "94.9", "60.5", "86.5", "89.3", "70.1", "82.1"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 526.0799999999999,
+    "y1": 68.64,
+    "y2": 154.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table1-1.png"
+}, {
+  "caption": "Figure 4: Illustrations of Fine-tuning BERT on Different Tasks.",
+  "captionBoundary": {
+    "x1": 172.41700744628906,
+    "x2": 425.1283264160156,
+    "y1": 454.9895324707031,
+    "y2": 460.99200439453125
+  },
+  "figType": "Figure",
+  "imageText": ["Sentence", "2", "...", "Sentence", "1", "Tok", "1", "Tok", "2", "Tok", "N...[CLS][", "][CLS]", "Tok", "1", "[SEP]...", "Tok", "N", "Tok", "1", "...", "Tok", "M", "BERT", "Class", "Label", "Start/End", "Span", "C", "T1", "T[SEP]...", "TN", "T1’", "...", "TM’", "...", "EN", "E1’", "...", "EM’", "Class", "Label", "...E[CLS]", "E1", "E[SEP]", "...", "B-PERO", "O", "Single", "Sentence", "C", "T1", "T2", "TN", "E[CLS]", "E1", "E2", "EN", "Tok", "1", "Tok", "2", "Tok", "N...[CLS]", "BERT", "...", "...", "Single", "Sentence", "C", "T1", "T2", "TN", "E[CLS]", "E1", "E2", "EN", "BERT", "Question", "Paragraph", "[CLS]", "Tok", "1", "[SEP]...", "Tok", "N", "Tok", "1", "...", "Tok", "M", "C", "T1", "T[SEP]...", "TN", "T1’", "...", "TM’", "E[CLS]", "E1", "E[SEP]...", "EN", "E1’", "...", "EM’", "BERT"],
+  "name": "4",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 105.6,
+    "x2": 492.0,
+    "y1": 61.44,
+    "y2": 438.24
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Figure4-1.png"
+}, {
+  "caption": "Table 4: SWAG Dev and Test accuracies. †Human performance is measured with 100 samples, as reported in the SWAG paper.",
+  "captionBoundary": {
+    "x1": 307.2760009765625,
+    "x2": 525.5465698242188,
+    "y1": 180.00955200195312,
+    "y2": 209.92205810546875
+  },
+  "figType": "Table",
+  "imageText": ["Human", "(expert)†", "-", "85.0", "Human", "(5", "annotations)†", "-", "88.0", "BERTBASE", "81.6", "-", "BERTLARGE", "86.6", "86.3", "ESIM+GloVe", "51.9", "52.7", "ESIM+ELMo", "59.1", "59.2", "OpenAI", "GPT", "-", "78.0", "System", "Dev", "Test"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 345.59999999999997,
+    "x2": 485.28,
+    "y1": 62.4,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table4-1.png"
+}, {
+  "caption": "Table 2: SQuAD 1.1 results. The BERT ensemble is 7x systems which use different pre-training checkpoints and fine-tuning seeds.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 290.2706298828125,
+    "y1": 252.66653442382812,
+    "y2": 282.58001708984375
+  },
+  "figType": "Table",
+  "imageText": ["Ours", "BERTBASE", "(Single)", "80.8", "88.5", "-", "-", "BERTLARGE", "(Single)", "84.1", "90.9", "-", "-", "BERTLARGE", "(Ensemble)", "85.8", "91.8", "-", "-", "BERTLARGE", "(Sgl.+TriviaQA)", "84.2", "91.1", "85.1", "91.8", "BERTLARGE", "(Ens.+TriviaQA)", "86.2", "92.2", "87.4", "93.2", "Published", "BiDAF+ELMo", "(Single)", "-", "85.6", "-", "85.8", "R.M.", "Reader", "(Ensemble)", "81.2", "87.9", "82.3", "88.5", "Top", "Leaderboard", "Systems", "(Dec", "10th,", "2018)", "Human", "-", "-", "82.3", "91.2", "#1", "Ensemble", "-", "nlnet", "-", "-", "86.0", "91.7", "#2", "Ensemble", "-", "QANet", "-", "-", "84.5", "90.5", "System", "Dev", "Test", "EM", "F1", "EM", "F1"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 81.6,
+    "x2": 280.32,
+    "y1": 62.879999999999995,
+    "y2": 236.16
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table2-1.png"
+}, {
+  "caption": "Table 3: SQuAD 2.0 results. We exclude entries that use BERT as one of their components.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 290.27056884765625,
+    "y1": 449.1355285644531,
+    "y2": 467.0929870605469
+  },
+  "figType": "Table",
+  "imageText": ["Ours", "BERTLARGE", "(Single)", "78.7", "81.9", "80.0", "83.1", "Published", "unet", "(Ensemble)", "-", "-", "71.4", "74.9", "SLQA+", "(Single)", "-", "71.4", "74.4", "Top", "Leaderboard", "Systems", "(Dec", "10th,", "2018)", "Human", "86.3", "89.0", "86.9", "89.5", "#1", "Single", "-", "MIR-MRC", "(F-Net)", "-", "-", "74.8", "78.0", "#2", "Single", "-", "nlnet", "-", "-", "74.2", "77.1", "System", "Dev", "Test", "EM", "F1", "EM", "F1"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 80.64,
+    "x2": 281.28,
+    "y1": 298.56,
+    "y2": 432.0
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table3-1.png"
+}, {
+  "caption": "Figure 1: Overall pre-training and fine-tuning procedures for BERT. Apart from output layers, the same architectures are used in both pre-training and fine-tuning. The same pre-trained model parameters are used to initialize models for different down-stream tasks. During fine-tuning, all parameters are fine-tuned. [CLS] is a special symbol added in front of every input example, and [SEP] is a special separator token (e.g. separating questions/answers).",
+  "captionBoundary": {
+    "x1": 71.99996948242188,
+    "x2": 525.5473022460938,
+    "y1": 260.6095275878906,
+    "y2": 314.43304443359375
+  },
+  "figType": "Figure",
+  "imageText": ["NERMNLI", "Question", "Answer", "Pair", "SQuAD", "Unlabeled", "Sentence", "A", "and", "B", "Pair", "NSP", "Mask", "LM", "Mask", "LM", "Pre-training", "Fine-Tuning", "Masked", "Sentence", "A", "Masked", "Sentence", "B", "[CLS]", "Tok", "1", "[SEP]...", "Tok", "N", "Tok", "1", "...", "TokM", "C", "T1", "T[SEP]...", "TN", "T1’", "...", "TM’", "E[CLS]", "E1", "E[SEP]...", "EN", "E1’", "...", "EM’", "BERT", "Start/End", "Span", "Question", "Paragraph", "[CLS]", "Tok", "1", "[SEP]...", "Tok", "N", "Tok", "1", "...", "TokM", "C", "T1", "T[SEP]...", "TN", "T1’", "...", "TM’", "E[CLS]", "E1", "E[SEP]...", "EN", "E1’", "...", "EM’", "BERT", "BERT"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 526.0799999999999,
+    "y1": 61.44,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Figure1-1.png"
+}, {
+  "caption": "Figure 3: Differences in pre-training model architectures. BERT uses a bidirectional Transformer. OpenAI GPT uses a left-to-right Transformer. ELMo uses the concatenation of independently trained left-to-right and right-toleft LSTMs to generate features for downstream tasks. Among the three, only BERT representations are jointly conditioned on both left and right context in all layers. In addition to the architecture differences, BERT and OpenAI GPT are fine-tuning approaches, while ELMo is a feature-based approach.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 525.5473022460938,
+    "y1": 185.01852416992188,
+    "y2": 238.841064453125
+  },
+  "figType": "Figure",
+  "imageText": ["E1", "E2", "EN...", "T1", "T2", "TN...", "E1", "E2", "EN...", "T1", "T2", "TN...", "E1", "E2", "EN...", "...", "...", "...", "...", "T1", "T2", "TN...", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "Lstm", "ELMo", "Lstm", "OpenAI", "GPT", "...", "...", "Trm", "Trm", "Trm", "Trm", "Trm", "Trm", "...", "...", "Trm", "Trm", "Trm", "Trm", "Trm", "Trm", "BERT", "(Ours)"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 526.0799999999999,
+    "y1": 61.44,
+    "y2": 168.0
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Figure3-1.png"
+}, {
+  "caption": "Table 5: Ablation over the pre-training tasks using the BERTBASE architecture. “No NSP” is trained without the next sentence prediction task. “LTR & No NSP” is trained as a left-to-right LM without the next sentence prediction, like OpenAI GPT. “+ BiLSTM” adds a randomly initialized BiLSTM on top of the “LTR + No NSP” model during fine-tuning.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 290.27264404296875,
+    "y1": 157.03054809570312,
+    "y2": 234.76409912109375
+  },
+  "figType": "Table",
+  "imageText": ["+", "BiLSTM", "82.1", "84.1", "75.7", "91.6", "84.9", "BERTBASE", "84.4", "88.4", "86.7", "92.7", "88.5", "No", "NSP", "83.9", "84.9", "86.5", "92.6", "87.9", "LTR", "&", "No", "NSP", "82.1", "84.3", "77.5", "92.1", "77.8", "(Acc)", "(Acc)", "(Acc)", "(Acc)", "(F1)", "Dev", "Set", "Tasks", "MNLI-m", "QNLI", "MRPC", "SST-2", "SQuAD"],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 72.0,
+    "x2": 293.28,
+    "y1": 62.4,
+    "y2": 144.96
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table5-1.png"
+}, {
+  "caption": "Table 6: Ablation over BERT model size. #L = the number of layers; #H = hidden size; #A = number of attention heads. “LM (ppl)” is the masked LM perplexity of held-out training data.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 290.27056884765625,
+    "y1": 717.5115966796875,
+    "y2": 759.3790283203125
+  },
+  "figType": "Table",
+  "imageText": ["3", "768", "12", "5.84", "77.9", "79.8", "88.4", "6", "768", "3", "5.24", "80.6", "82.2", "90.7", "6", "768", "12", "4.68", "81.9", "84.8", "91.3", "12", "768", "12", "3.99", "84.4", "86.7", "92.9", "12", "1024", "16", "3.54", "85.7", "86.9", "93.3", "24", "1024", "16", "3.23", "86.6", "87.8", "93.7", "#L", "#H", "#A", "LM", "(ppl)", "MNLI-m", "MRPC", "SST-2", "Hyperparams", "Dev", "Set", "Accuracy"],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 277.44,
+    "y1": 602.4,
+    "y2": 700.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table6-1.png"
+}, {
+  "caption": "Table 7: CoNLL-2003 Named Entity Recognition results. Hyperparameters were selected using the Dev set. The reported Dev and Test scores are averaged over 5 random restarts using those hyperparameters.",
+  "captionBoundary": {
+    "x1": 307.2760009765625,
+    "x2": 525.546630859375,
+    "y1": 237.72256469726562,
+    "y2": 279.591064453125
+  },
+  "figType": "Table",
+  "imageText": ["Feature-based", "approach", "(BERTBASE)", "Embeddings", "91.0", "-", "Second-to-Last", "Hidden", "95.6", "-", "Last", "Hidden", "94.9", "-", "Weighted", "Sum", "Last", "Four", "Hidden", "95.9", "-", "Concat", "Last", "Four", "Hidden", "96.1", "-", "Weighted", "Sum", "All", "12", "Layers", "95.5", "-", "Fine-tuning", "approach", "BERTLARGE", "96.6", "92.8", "BERTBASE", "96.4", "92.4", "ELMo", "(Peters", "et", "al.,", "2018a)", "95.7", "92.2", "CVT", "(Clark", "et", "al.,", "2018)", "-", "92.6", "CSE", "(Akbik", "et", "al.,", "2018)", "-", "93.1", "System", "Dev", "F1", "Test", "F1"],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 316.8,
+    "x2": 516.0,
+    "y1": 62.4,
+    "y2": 226.07999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table7-1.png"
+}, {
+  "caption": "Figure 2: BERT input representation. The input embeddings are the sum of the token embeddings, the segmentation embeddings and the position embeddings.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 525.5471801757812,
+    "y1": 186.00253295898438,
+    "y2": 203.96002197265625
+  },
+  "figType": "Figure",
+  "imageText": ["E0", "E6", "E7", "E8", "E9", "E10E1", "E2", "E3", "E4", "E5", "Position", "Embeddings", "EA", "EB", "EB", "EB", "EB", "EBEA", "EA", "EA", "EA", "EA", "Segment", "Embeddings", "E[CLS]", "Ehe", "Elikes", "Eplay", "E##ing", "E[SEP]Emy", "Edog", "Eis", "Ecute", "E[SEP]", "Token", "Embeddings", "[CLS]", "he", "likes", "play", "##ing", "[SEP]my", "dog", "is", "cute", "[SEP]Input"],
+  "name": "2",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 111.83999999999999,
+    "x2": 473.28,
+    "y1": 61.44,
+    "y2": 168.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Figure2-1.png"
+}, {
+  "caption": "Figure 5: Ablation over number of training steps. This shows the MNLI accuracy after fine-tuning, starting from model parameters that have been pre-trained for k steps. The x-axis is the value of k.",
+  "captionBoundary": {
+    "x1": 72.0,
+    "x2": 290.2705993652344,
+    "y1": 717.5115966796875,
+    "y2": 759.3790283203125
+  },
+  "figType": "Figure",
+  "imageText": ["BERTBASE", "(Masked", "LM)", "BERTBASE", "(Left-to-Right)", "ac", "y", "cc", "ur", "ev", "A", "L", "ID", "M", "N", "Pre-training", "Steps", "(Thousands)", "84", "82", "80", "78", "76", "200", "400", "600", "800", "1,000"],
+  "name": "5",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 75.36,
+    "x2": 270.71999999999997,
+    "y1": 571.68,
+    "y2": 701.28
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Figure5-1.png"
+}, {
+  "caption": "Table 8: Ablation over different masking strategies.",
+  "captionBoundary": {
+    "x1": 312.5450134277344,
+    "x2": 520.2750854492188,
+    "y1": 332.9555358886719,
+    "y2": 338.9580078125
+  },
+  "figType": "Table",
+  "imageText": ["0%", "20%", "80%", "83.7", "94.8", "94.6", "0%", "0%", "100%", "83.6", "94.9", "94.6", "80%", "0%", "20%", "84.1", "95.2", "94.6", "80%", "20%", "0%", "84.4", "95.2", "94.7", "80%", "10%", "10%", "84.2", "95.4", "94.9", "100%", "0%", "0%", "84.3", "94.9", "94.0", "MASK", "SAME", "RND", "MNLI", "NER", "Fine-tune", "Fine-tune", "Feature-based", "Masking", "Rates", "Dev", "Set", "Results"],
+  "name": "8",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 306.71999999999997,
+    "x2": 527.04,
+    "y1": 208.32,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\abac62b4-5ed8-4a1f-8cfa-e55df0a51991-Table8-1.png"
+}]

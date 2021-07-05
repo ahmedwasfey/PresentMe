@@ -1,0 +1,101 @@
+[{
+  "caption": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 504.0035705566406,
+    "y1": 72.7525405883789,
+    "y2": 100.572998046875
+  },
+  "figType": "Table",
+  "imageText": ["Self-Attention", "O(n2", "·", "d)", "O(1)", "O(1)", "Recurrent", "O(n", "·", "d2)", "O(n)", "O(n)", "Convolutional", "O(k", "·", "n", "·", "d2)", "O(1)", "O(logk(n))", "Self-Attention", "(restricted)", "O(r", "·", "n", "·", "d)", "O(1)", "O(n/r)", "Layer", "Type", "Complexity", "per", "Layer", "Sequential", "Maximum", "Path", "Length", "Operations"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 117.6,
+    "x2": 494.4,
+    "y1": 112.32,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "output/images/ourpaper_NIPS-2017-attention-is-all-you-need-Paper-Table1-1.png"
+}, {
+  "caption": "Figure 1: The Transformer - model architecture.",
+  "captionBoundary": {
+    "x1": 210.01100158691406,
+    "x2": 401.99029541015625,
+    "y1": 406.29852294921875,
+    "y2": 412.3009948730469
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 195.84,
+    "x2": 416.15999999999997,
+    "y1": 72.0,
+    "y2": 395.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "output/images/ourpaper_NIPS-2017-attention-is-all-you-need-Paper-Figure1-1.png"
+}, {
+  "caption": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 504.00311279296875,
+    "y1": 72.7525405883789,
+    "y2": 89.66400146484375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "BLEU", "Training", "Cost", "(FLOPs)", "EN-DE", "EN-FR", "EN-DE", "EN-FR", "ByteNet", "[15]", "23.75", "Deep-Att", "+", "PosUnk", "[32]", "39.2", "1.0", "·", "1020", "GNMT", "+", "RL", "[31]", "24.6", "39.92", "2.3", "·", "1019", "1.4", "·", "1020", "ConvS2S", "[8]", "25.16", "40.46", "9.6", "·", "1018", "1.5", "·", "1020", "MoE", "[26]", "26.03", "40.56", "2.0", "·", "1019", "1.2", "·", "1020", "Deep-Att", "+", "PosUnk", "Ensemble", "[32]", "40.4", "8.0", "·", "1020", "GNMT", "+", "RL", "Ensemble", "[31]", "26.30", "41.16", "1.8", "·", "1020", "1.1", "·", "1021", "ConvS2S", "Ensemble", "[8]", "26.36", "41.29", "7.7", "·", "1019", "1.2", "·", "1021", "Transformer", "(base", "model)", "27.3", "38.1", "3.3", "·", "1018", "Transformer", "(big)", "28.4", "41.0", "2.3", "·", "1019"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 482.4,
+    "y1": 93.6,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "output/images/ourpaper_NIPS-2017-attention-is-all-you-need-Paper-Table2-1.png"
+}, {
+  "caption": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.",
+  "captionBoundary": {
+    "x1": 108.0,
+    "x2": 503.9972229003906,
+    "y1": 276.01654052734375,
+    "y2": 292.9280090332031
+  },
+  "figType": "Figure",
+  "imageText": ["Scaled", "Dot-Product", "Attention", "Multi-Head", "Attention"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 147.35999999999999,
+    "x2": 468.47999999999996,
+    "y1": 72.0,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "output/images/ourpaper_NIPS-2017-attention-is-all-you-need-Paper-Figure2-1.png"
+}, {
+  "caption": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 504.0033264160156,
+    "y1": 72.7525405883789,
+    "y2": 111.48199462890625
+  },
+  "figType": "Table",
+  "imageText": ["(E)", "positional", "embedding", "instead", "of", "sinusoids", "4.92", "25.7", "big", "6", "1024", "4096", "16", "0.3", "300K", "4.33", "26.4", "213", "0.0", "4.67", "25.3", "0.2", "5.47", "25.7", "0.0", "5.77", "24.6", "0.2", "4.95", "25.5", "(D)", "1024", "5.12", "25.4", "53", "4096", "4.75", "26.2", "90", "256", "32", "32", "5.75", "24.5", "28", "1024", "128", "128", "4.66", "26.0", "168", "2", "6.11", "23.7", "36", "4", "5.19", "25.3", "50", "8", "4.88", "25.5", "80", "(C)", "(B)", "16", "5.16", "25.1", "5832", "5.01", "25.4", "60", "16", "32", "32", "4.91", "25.8", "32", "16", "16", "5.01", "25.4", "1", "512", "512", "5.29", "24.9", "4", "128", "128", "5.00", "25.5", "(A)", "base", "6", "512", "2048", "8", "64", "64", "0.1", "0.1", "100K", "4.92", "25.8", "65", "N", "dmodel", "dff", "h", "dk", "dv", "Pdrop", "ls", "train", "PPL", "BLEU", "params", "steps", "(dev)", "(dev)", "×106"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 107.52,
+    "x2": 509.28,
+    "y1": 128.64,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "output/images/ourpaper_NIPS-2017-attention-is-all-you-need-Paper-Table3-1.png"
+}]

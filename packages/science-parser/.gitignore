@@ -1,0 +1,27 @@
+# gradle
+.gradle/**
+build/**
+gradle/**
+out/**
+gradlew.*
+gradlew
+
+# intellij
+*.ipr
+*.iws
+*.iml
+
+# emacs
+.*~
+
+# sbt
+target/**
+project/target/**
+project/project/**
+
+EvalErrors.log
+
+!/cli/
+!/core/
+!/server/
+!/project/

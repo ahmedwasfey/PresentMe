@@ -1,0 +1,421 @@
+[{
+  "caption": "Figure 1. We introduce a novel task of generating a slide deck from a document. This requires solving several challenges in the vision & language domain, e.g., visual-semantic embedding and multimodal summarization. In addition, slides exhibit unique properties such as concise text (bullet points) and stylized layout. We propose an approach to solving DOC2PPT, tackling these challenges.",
+  "captionBoundary": {
+    "x1": 308.86199951171875,
+    "x2": 545.1088256835938,
+    "y1": 404.9967346191406,
+    "y2": 465.19293212890625
+  },
+  "figType": "Figure",
+  "imageText": ["Layout", "Designer", "Text", "Paraphraser", "Multimodal", "Summarizer", "Image", "Encoder", "Text", "Encoder", "Slide", "Generator", "Document", "Reader", "…", "DOC2PPT", "Output:", "A", "Slide", "Deck", "Input:", "A", "Document"],
+  "name": "1",
+  "page": 0,
+  "regionBoundary": {
+    "x1": 319.68,
+    "x2": 532.3199999999999,
+    "y1": 214.07999999999998,
+    "y2": 399.36
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure1-1.png"
+}, {
+  "caption": "Figure 11. Partial Matching and Different Expression. The examples where the figure matching performs poorly.",
+  "captionBoundary": {
+    "x1": 89.83999633789062,
+    "x2": 505.3857116699219,
+    "y1": 135.78775024414062,
+    "y2": 141.19000244140625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 70.56,
+    "y2": 127.19999999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure11-1.png"
+}, {
+  "caption": "Figure 12. Interface of Figure Matching Labeling. The annotator label figures either as match or as similar but not exact match. Figure 13. Interface of Bounding Box Labeling. The annotator is asked to draw a bounding box around the region of the slide where the candidate figure appeared.",
+  "captionBoundary": {
+    "x1": 50.11198425292969,
+    "x2": 546.578857421875,
+    "y1": 443.7067565917969,
+    "y2": 480.83099365234375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 547.1999999999999,
+    "y1": 304.8,
+    "y2": 445.44
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure12-1.png"
+}, {
+  "caption": "Table 2. An overall result of different ablation settings under automatic evaluation metrics ROUGE-SL, LC-FS, TFR, and mIoU.",
+  "captionBoundary": {
+    "x1": 67.01699829101562,
+    "x2": 528.2039184570312,
+    "y1": 174.99172973632812,
+    "y2": 180.39398193359375
+  },
+  "figType": "Table",
+  "imageText": ["(f)", "3", "3", "3", "3", "29.40", "34.27", "26.36", "38.39", "31.26", "17.49", "-", "/", "46.73", "(a)", "7", "7", "7", "7", "24.35", "29.77", "25.54", "14.85", "18.78", "5.61", "43.34", "/", "38.15", "(b)", "3", "7", "7", "7", "24.93", "29.68", "17.48", "26.26", "20.99", "8.58", "49.16", "/", "40.94", "(c)", "3", "3", "7", "7", "27.19", "32.27", "17.48", "26.26", "20.99", "9.23", "49.16", "/", "40.94", "(d)", "3", "7", "3", "7", "26.52", "30.99", "23.47", "25.31", "24.36", "10.09", "50.82", "/", "42.96", "(e)", "3", "3", "3", "7", "29.40", "34.27", "23.47", "25.31", "24.36", "11.82", "50.82", "/", "42.96", "Ablation", "Settings", "ROUGE-SL", "LC-FS", "TFR", "mIoUHrch-PT", "PAR", "TIM", "Post", "Proc.", "Ours", "w/o", "SL", "Prec.", "Rec.", "F1", "(Layout", "/", "Template)"],
+  "name": "2",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 84.96,
+    "x2": 509.28,
+    "y1": 71.52,
+    "y2": 164.16
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Table2-1.png"
+}, {
+  "caption": "Table 3. Topic-aware evaluation results (ROUGE-SL / LC-F1 / TFR) when trained and tested on data from different topics.",
+  "captionBoundary": {
+    "x1": 77.3280029296875,
+    "x2": 517.9010009765625,
+    "y1": 263.8857727050781,
+    "y2": 269.28802490234375
+  },
+  "figType": "Table",
+  "imageText": ["CV", "31.2", "/", "32.1", "/", "19.7", "24.1", "/", "21.5", "/", "5.6", "24.0", "/", "25.6", "/", "11.2", "24.7", "/", "29.2", "/", "15.8", "NLP", "28.8", "/", "30.0", "/", "13.4", "34.7", "/", "30.7", "/", "11.8", "29.2", "/", "32.7", "/", "15.3", "28.9", "/", "30.9", "/", "13.6", "ML", "21.1", "/", "29.2", "/", "11.6", "21.1", "/", "26.6", "/", "6.6", "32.1", "/", "36.8", "/", "22.8", "24.9", "/", "31.4", "/", "14.4", "All", "29.2", "/", "31.2", "/", "18.6", "30.0", "/", "28.8", "/", "9.7", "29.4", "/", "32.9", "/", "20.6", "29.4", "/", "31.3", "/", "17.5", "Train", "?", "/", "Test", "?", "CV", "NLP", "ML", "All"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 128.64,
+    "x2": 464.15999999999997,
+    "y1": 193.92,
+    "y2": 253.44
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Table3-1.png"
+}, {
+  "caption": "Table 4. Sentence Matching. The example of matching sentences from the slide to the paper.",
+  "captionBoundary": {
+    "x1": 129.87100219726562,
+    "x2": 465.356201171875,
+    "y1": 389.937744140625,
+    "y2": 395.3399963378906
+  },
+  "figType": "Table",
+  "imageText": ["for", "supervised", "learning", "tasks", "adapted", "for", "supervised", "like", "classi?cation", "and", "regression", "Finally,", "can", "the", "idea", "of", "proportionality", "Can", "fairness", "as", "as", "a", "group", "fairness", "concept", "be", "adapted", "proportionality", "be", "The", "Pima", "Indians", "Diabetes", "data", "set", "This", "data", "set", "contains", "768", "contains", "information", "about", "768", "diabetes", "diabetes", "patients,", "patients,", "recording", "features", "like", "glucose", "recording", "features", "like", "blood,", "pressure,", "age,", "and", "skin", "thickness", "glucose,", "blood", "Paper", "Sentence", "Slide", "Sentence"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 178.56,
+    "x2": 414.24,
+    "y1": 283.68,
+    "y2": 386.4
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Table4-1.png"
+}, {
+  "caption": "Figure 8. Slide-Section Matching. We match slides to the corresponding sections in the document so that a slide deck is represented as a set of non-overlapping section groups.",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 545.1085815429688,
+    "y1": 197.05673217773438,
+    "y2": 213.41796875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 129.6,
+    "y2": 189.12
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure8-1.png"
+}, {
+  "caption": "Figure 10. Figure Matching under Different ?I . Precision, recall, and F1 are evaluated using the human-labeled testing set.",
+  "captionBoundary": {
+    "x1": 304.0220031738281,
+    "x2": 546.57763671875,
+    "y1": 677.0607299804688,
+    "y2": 693.4219970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 303.84,
+    "x2": 547.1999999999999,
+    "y1": 558.72,
+    "y2": 669.12
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure10-1.png"
+}, {
+  "caption": "Figure 9. Figure Matching. The lower figures are those matched from the paper using the cosine similarity and features from MobileNet [31].",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 292.66497802734375,
+    "y1": 671.5787353515625,
+    "y2": 698.8989868164062
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 293.28,
+    "y1": 553.92,
+    "y2": 664.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure9-1.png"
+}, {
+  "caption": "Figure 2. An overview of our network architecture. It consists of four main modules (DR, PT, OP, PAR) that read a document and generate a slide deck in a hierarchically structured manner.",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 286.35870361328125,
+    "y1": 322.8017578125,
+    "y2": 350.12200927734375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 287.03999999999996,
+    "y1": 72.0,
+    "y2": 306.24
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure2-1.png"
+}, {
+  "caption": "Figure 17. Qualitative examples. (from top to bottom: [48], [42], [19], [35], and [10]) Please visit our webpage for more generated slide decks from our approach.",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 545.1126708984375,
+    "y1": 706.4927368164062,
+    "y2": 722.85400390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "17",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 70.56,
+    "y2": 698.4
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure17-1.png"
+}, {
+  "caption": "Figure 4. The average scores for how closely the generated text and figures match the text and figures in the ground-truth slides, respectively. And how well the generated text matches the figures in the ground-truth slides. Error bars reflect standard error. Significance tests: two-sample t-test (p <0.05.)",
+  "captionBoundary": {
+    "x1": 308.86199951171875,
+    "x2": 545.1088256835938,
+    "y1": 448.8167419433594,
+    "y2": 498.054931640625
+  },
+  "figType": "Figure",
+  "imageText": ["Flat", "PT", "Ours", "w/o", "PAR,TIM", "Ours", "*", "*", "*", "*", "*", "Human", "Evaluation", "*", "re", "S", "co", "7", "6", "5", "4", "3", "2", "Text", "Figure", "Text-Figure1"],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 310.08,
+    "x2": 543.36,
+    "y1": 342.71999999999997,
+    "y2": 440.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure4-1.png"
+}, {
+  "caption": "Figure 3. Qualitative examples of the generated slide deck from our model (Paper source: top [33] and bottom [11]). We provide more results, including failure cases, on our project webpage.",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 545.111083984375,
+    "y1": 308.0747375488281,
+    "y2": 324.43597412109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 70.56,
+    "y2": 296.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure3-1.png"
+}, {
+  "caption": "Figure 16. Applying PowerPoint Design Ideas. By applying the design ideas feature [3] provided from Microsoft PowerPoint, we can make the generated template-based slide deck more professional and more attractive for the presentation.",
+  "captionBoundary": {
+    "x1": 280.3320007324219,
+    "x2": 527.8314819335938,
+    "y1": 569.9297485351562,
+    "y2": 608.2080078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "16",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 279.84,
+    "x2": 528.0,
+    "y1": 324.96,
+    "y2": 562.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure16-1.png"
+}, {
+  "caption": "Figure 14. Post-Processing under different ?R and ?A. We tune the ?R and ?A for the post-processing based on the LC-F1 on the validation set.",
+  "captionBoundary": {
+    "x1": 259.46600341796875,
+    "x2": 551.0169677734375,
+    "y1": 158.23373413085938,
+    "y2": 174.594970703125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "14",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 258.71999999999997,
+    "x2": 552.0,
+    "y1": 72.0,
+    "y2": 150.23999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure14-1.png"
+}, {
+  "caption": "Table 5. Considering hpbj in PAR. The Rouge-L score of with and without hobj in paraphrasing module.",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 248.11322021484375,
+    "y1": 157.10873413085938,
+    "y2": 173.469970703125
+  },
+  "figType": "Table",
+  "imageText": ["3", "7", "7", "29.68", "3", "7", "3", "31.95", "32.27", "3", "3", "7", "30.99", "3", "3", "3", "33.05", "34.27", "Ablation", "Settings", "Rouge-L", "Hrch-PT", "TIM", "PAR", "w/o", "hobj", "w/", "hobj"],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 55.68,
+    "x2": 240.48,
+    "y1": 72.96,
+    "y2": 151.2
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Table5-1.png"
+}, {
+  "caption": "Figure 15. Interface of Human Evaluation. The annotator is asked three questions on aspects of the text quality, the figure extraction, and the text-figure relevance.",
+  "captionBoundary": {
+    "x1": 67.3909912109375,
+    "x2": 265.3897399902344,
+    "y1": 570.0807495117188,
+    "y2": 608.3599853515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "15",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 66.72,
+    "x2": 266.4,
+    "y1": 326.88,
+    "y2": 562.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure15-1.png"
+}, {
+  "caption": "Figure 5. Data processing pipeline. We automatically extract text/figures and match them between each document and slide deck pair.",
+  "captionBoundary": {
+    "x1": 50.11199951171875,
+    "x2": 534.3671264648438,
+    "y1": 324.2647399902344,
+    "y2": 329.6669921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 152.64,
+    "y2": 316.32
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure5-1.png"
+}, {
+  "caption": "Figure 6. Text Extraction from Slide Deck. We use Azure OCR [1] to extract sentences from slides.",
+  "captionBoundary": {
+    "x1": 115.85600280761719,
+    "x2": 479.3702087402344,
+    "y1": 482.2357482910156,
+    "y2": 487.63800048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 411.84,
+    "y2": 473.28
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure6-1.png"
+}, {
+  "caption": "Figure 7. Slide Stemming. The ghosted/opaque slides are seen as redundant and will be removed by the stemming process. This helps simplify our dataset.",
+  "captionBoundary": {
+    "x1": 50.11199188232422,
+    "x2": 545.1097412109375,
+    "y1": 679.0307006835938,
+    "y2": 695.3909912109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 546.24,
+    "y1": 594.72,
+    "y2": 671.04
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Figure7-1.png"
+}, {
+  "caption": "Table 1. Descriptive statistics of our dataset. We report both the total count and the average number (in parenthesis).",
+  "captionBoundary": {
+    "x1": 89.5989990234375,
+    "x2": 505.6219177246094,
+    "y1": 150.40475463867188,
+    "y2": 155.8070068359375
+  },
+  "figType": "Table",
+  "imageText": ["Total", "5,873", "4,686", "/", "592", "/", "595", "41,066", "(6.99)", "1,757,566", "(42.8)", "48,799", "(8.3)", "98,856", "(16.8)", "330,784", "(8.1)", "14,433", "(2.5)", "CV", "2,600", "2,073", "/", "265", "/", "262", "15,588", "(6.0)", "721,048", "(46.3)", "24,998", "(9.6)", "37,969", "(14.6)", "124,924", "(8.0)", "4,290", "(1.7)", "NLP", "931", "741", "/", "93", "/", "97", "7,743", "(8.3)", "234,764", "(30.3)", "8,114", "(8.7)", "19,333", "(20.8)", "63,162", "(8.2)", "3,956", "(4.2)", "ML", "2,342", "1,872", "/", "234", "/", "236", "17,735", "(7.6)", "801,754", "(45.2)", "15,687", "(6.7)", "41,544", "(17.7)", "142,698", "(8.0)", "6,187", "(2.6)", "#Pairs", "Train", "/", "Val", "/", "Test", "#Sections", "#Sentences", "#Figures", "#Slides", "#Sentences", "#Figures", "Document", "&", "Slide", "Pairs", "Documents", "Slides"],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 74.88,
+    "x2": 519.36,
+    "y1": 71.52,
+    "y2": 141.12
+  },
+  "renderDpi": 150,
+  "renderURL": "e:\\graduation\\output\\figures\\images\\d868cc7a-f563-4368-b3af-f5759749e3fc-Table1-1.png"
+}]
