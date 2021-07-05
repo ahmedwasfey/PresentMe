@@ -17,6 +17,7 @@ namespace iPresenter
             foreach (var part in parts)
             {
                 var sentencesText = part.Text.Split(".").Where(t => !string.IsNullOrWhiteSpace(t)).Select(t => t.Trim()).ToList();
+                System.Console.Write(sentencesText)
                 ImagePart image = imageParts.FirstOrDefault(imagePart => part.Heading.Equals(imagePart.Heading));//part.Image;
 
                 var presenterSlide = new PresenterSlide();
