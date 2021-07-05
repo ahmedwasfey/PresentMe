@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zOnevb6AiXDXWTBukqLdF5sEeQdAj8zMFKWI3/UsTelr3Ox3PRI/Bk4UtEZ6ZqBZ1rvZDG+4Iu1O9WaHdl+xSg==",
+  "dgSpecHash": "gvVB2pXOnL/Oblx6/FVpPOJ8/6NuhKIJax1XXCdBn4LIu8+4ZgTLhtP5HNVkFVwcT36Ijr4i0Xzfw6kfICcvxg==",
   "success": true,
-  "projectFilePath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj",
+  "projectFilePath": "E:\\graduation\\PresentMe\\iPresenter\\iPresenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Master\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

@@ -23,7 +23,7 @@ class fileProcessor:
         output = self.all(paperPath)
         return output
 
-    def all(self, paperPath, verbose=False):
+    def all(self, paperPath, verbose=True):
 
         if (verbose): print("Text Parser Starting..")
         textOutPath = self.textParser.process(paperPath)
@@ -32,8 +32,10 @@ class fileProcessor:
 
         if (verbose): print("Image Parser Starting..")
         figOutPath = self.imageParser.process(paperPath)
+        if (verbose): print(f"Figures output {figOutPath}..")
         if (verbose): print("Image Parser Finished..")
 
+        if (verbose): print("Creating summerizer..")
         mySummarizer = Summarizer()
         if (verbose): print("Summarizer Starting..")
         summarizedPath = mySummarizer.process(textOutPath)

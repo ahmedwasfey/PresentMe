@@ -44,7 +44,7 @@ class Summarizer:
         for i in range(len(self.file["metadata"]["sections"])):
             self.file["metadata"]["sections"][i]["text"] = self.final_output[i]
         #return self.file["metadata"]
-        out_file = r'e:\graduation\output\text\summarized.json'
+        out_file = r'e:\graduation\PresentMe\output\text\summarized.json'
         with open(out_file, "w") as f:
             json.dump(self.file, f)
         return out_file

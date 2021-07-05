@@ -2,8 +2,8 @@ import jarHandler
 import ntpath
 import os
 
-OUT_PATH = "e:\graduation\output\\"
-IN_PATH = "e:\graduation\papers\\"
+OUT_PATH = "e:\graduation\PresentMe\output\\"
+IN_PATH = "e:\graduation\PresentMe\papers\\"
 
 
 class Parser():

@@ -1,7 +1,7 @@
 from subprocess import *
 
-TEXT_JAR_PATH = 'E:\graduation\packages\science-parser\cli\\target\scala-2.11\science-parse-cli-assembly-3.0.1.jar '
-IMAGE_JAR_PATH = 'E:\graduation\packages\pdffigures\\target\scala-2.11\pdffigures2-assembly-0.1.0.jar '
+TEXT_JAR_PATH = 'E:\graduation\PresentMe\packages\science-parser\cli\\target\scala-2.11\science-parse-cli-assembly-3.0.1.jar '
+IMAGE_JAR_PATH = 'E:\graduation\PresentMe\packages\pdffigures\\target\scala-2.11\pdffigures2-assembly-0.1.0.jar '
 
 
 class jarHandler():

@@ -34,7 +34,10 @@ class imgPlacer:
 
         for i in imgData:
             caption = (i["caption"])
-            dataType = caption.split(".", 1)[0]
+            dataType = caption.split(" ", 3)[:2]
+            dataType = " ".join(dataType)
+            if not dataType[-1].isdigit(): dataType = dataType[:-1]
+            # print(dataType)
             sections = textData["metadata"]["sections"]
             for section in sections:
                 text = section["text"]
@@ -51,8 +54,8 @@ if __name__ == '__main__':
     a = r"D:\CCE Department\4th CCE\Graduation Project\graduation_project\pdffigures\output\data\ourpapers_NIPS-2017-attention-is-all-you-need-Paper.json"
     b = r"D:\CCE Department\4th CCE\Graduation Project\graduation_project\science-parser\NIPS-2017-attention-is-all-you-need-Paper.pdf.json"
 
-    textOutPath = r'E:\graduation\output\text\textOutput.json'
-    figOutPath = r'E:\graduation\output\figures\data\doc2ppt.json'
+    textOutPath = r'E:\graduation\PresentMe\output\text\textOutput.json'
+    figOutPath = r'E:\graduation\PresentMe\output\figures\data\doc2ppt.json'
 
     x = imgPlacer()
     print(x.process(figOutPath, textOutPath))

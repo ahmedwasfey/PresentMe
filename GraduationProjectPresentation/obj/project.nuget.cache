@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oIqFM6xulcZLSKS/WecoZThMAPPE15ioNaS0gn8WY65XcCx/Ypzsev7npUb9y487K+DXgEw58h0S4EAyM5HJ2A==",
+  "dgSpecHash": "waDO2PpLjpnsYQh7f2OeWf7UreSE5LJ3otYUl0rsknWdM2Z5uTRvJq01iPxWiiD9LPAcdGQg2SLQo5XdfXWbDg==",
   "success": true,
-  "projectFilePath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
+  "projectFilePath": "E:\\graduation\\PresentMe\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Master\\.nuget\\packages\\dynamiclanguageruntime\\1.3.0\\dynamiclanguageruntime.1.3.0.nupkg.sha512",
     "C:\\Users\\Master\\.nuget\\packages\\ironpython\\3.4.0-alpha1\\ironpython.3.4.0-alpha1.nupkg.sha512",

@@ -22,3 +22,15 @@ E:\graduation\GraduationProjectPresentation\GraduationProjectPresentation\iPrese
 E:\graduation\GraduationProjectPresentation\GraduationProjectPresentation\iPresenter\obj\Debug\net5.0\iPresenter.dll
 E:\graduation\GraduationProjectPresentation\GraduationProjectPresentation\iPresenter\obj\Debug\net5.0\ref\iPresenter.dll
 E:\graduation\GraduationProjectPresentation\GraduationProjectPresentation\iPresenter\obj\Debug\net5.0\iPresenter.pdb
+E:\graduation\PresentMe\iPresenter\bin\Debug\net5.0\iPresenter.deps.json
+E:\graduation\PresentMe\iPresenter\bin\Debug\net5.0\iPresenter.dll
+E:\graduation\PresentMe\iPresenter\bin\Debug\net5.0\ref\iPresenter.dll
+E:\graduation\PresentMe\iPresenter\bin\Debug\net5.0\iPresenter.pdb
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.csproj.AssemblyReference.cache
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.GeneratedMSBuildEditorConfig.editorconfig
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.AssemblyInfoInputs.cache
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.AssemblyInfo.cs
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.csproj.CoreCompileInputs.cache
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.dll
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\ref\iPresenter.dll
+E:\graduation\PresentMe\iPresenter\obj\Debug\net5.0\iPresenter.pdb

@@ -982,11 +982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
+      "projectUniqueName": "E:\\graduation\\PresentMe\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
       "projectName": "GraduationProjectPresentation",
-      "projectPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
+      "projectPath": "E:\\graduation\\PresentMe\\GraduationProjectPresentation\\GraduationProjectPresentation.csproj",
       "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-      "outputPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\GraduationProjectPresentation\\obj\\",
+      "outputPath": "E:\\graduation\\PresentMe\\GraduationProjectPresentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1001,8 +1001,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj": {
-              "projectPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj"
+            "E:\\graduation\\PresentMe\\iPresenter\\iPresenter.csproj": {
+              "projectPath": "E:\\graduation\\PresentMe\\iPresenter\\iPresenter.csproj"
             }
           }
         }

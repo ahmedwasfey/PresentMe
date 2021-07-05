@@ -314,11 +314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj",
+      "projectUniqueName": "E:\\graduation\\PresentMe\\iPresenter\\iPresenter.csproj",
       "projectName": "iPresenter",
-      "projectPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\iPresenter.csproj",
+      "projectPath": "E:\\graduation\\PresentMe\\iPresenter\\iPresenter.csproj",
       "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-      "outputPath": "E:\\graduation\\GraduationProjectPresentation\\GraduationProjectPresentation\\iPresenter\\obj\\",
+      "outputPath": "E:\\graduation\\PresentMe\\iPresenter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config"
