@@ -7,7 +7,7 @@
  * Kiroulous Nashaat
  * Asmaa Saeed 
  * Esraa saeed 
- * Rana El-khouly
+ * Rana Elkhouly
 ## Under supervision of :
 * Dr. Mohammed Arafa 
 * Dr. Hamada Rizk 
